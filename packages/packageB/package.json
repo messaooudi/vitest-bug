@@ -1,0 +1,19 @@
+{
+  "name": "@ome/packageB",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "@ome/packageA": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

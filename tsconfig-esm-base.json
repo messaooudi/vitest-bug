@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "emitDeclarationOnly": false,
+    "esModuleInterop": false,
+    "moduleResolution": "Node16",
+    "sourceMap": true
+  },
+  "extends": "./tsconfig-base.json"
+}

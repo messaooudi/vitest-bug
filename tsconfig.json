@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs"
+  },
+  "extends": "./tsconfig-base.json",
+  "files": [],
+  "references": [
+    {
+      "path": "packages/packageA/tsconfig.json"
+    },
+    {
+      "path": "packages/packageB/tsconfig.json"
+    }
+  ]
+}
