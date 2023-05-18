@@ -1,6 +1,5 @@
 import undoable from "redux-undo";
 
-// @ts-expect-error
-export const undoableReducer = undoable.default(() => {}, {
+export const undoableReducer = undoable(() => {}, {
   limit: 20,
 });
