@@ -14,9 +14,6 @@
     "typescript": "^4.8.4",
     "vitest": "^0.31.0"
   },
-  "engines": {
-    "node": ">=18.12.1"
-  },
   "stackblitz": {
     "startCommand": "yarn tsc -b && yarn vitest run"
   }
